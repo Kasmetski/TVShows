@@ -49,23 +49,22 @@
         </div>
     </div>
 </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                Hello
-            </div>
-        </div>
+<div class="container">
+    <div class="jumbotron" ng-controller="TVShowsDetailsController">
+        {{tvshows}}
     </div>
+</div>
 
-    <footer class="modal-footer">
-        <br/>
-        <small>Author: {{ author }}. Year {{year}}</small>
-    </footer>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/controllers/PageController.js"></script>
+<footer class="modal-footer">
+    <br/>
+    <small>Author: {{ author }}. Year {{year}}</small>
+</footer>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/PageController.js"></script>
+<script src="js/controllers/TVShowsDetailsController.js"></script>
+
 </body>
 </html>
